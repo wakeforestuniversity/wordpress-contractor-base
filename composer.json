@@ -35,10 +35,10 @@
         }
     ],
     "extra": {
-        "wordpress-install-dir": "wp",
+        "wordpress-install-dir": "public_html",
         "installer-paths": {
-            "wp/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-            "wp/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+            "public_html/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public_html/wp-content/themes/{$name}/": ["type:wordpress-theme"]
         }
     }
 }
