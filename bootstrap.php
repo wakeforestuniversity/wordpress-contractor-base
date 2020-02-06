@@ -43,3 +43,6 @@ define('WFU_SERVER_GROUP', 'wordpress');
 require_once 'vendor/autoload.php';
 // autoload must be included first or this will fail to find Redis\Client
 require_once 'vendor/wfu/wfu/wfu-aws-redis-session-bootstrap.php';
+
+define('ACF_PRO_KEY', '');
+define('GF_LICENSE_KEY', 'ae9cb2e57af28ee61d2bd9f02ca8920b');
