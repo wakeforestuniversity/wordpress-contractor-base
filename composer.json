@@ -10,7 +10,9 @@
         "wfu/wfu" : "~2",
         "advanced-custom-fields/advanced-custom-fields-pro": "5.8.7",
         "gravity-forms/gravity-forms": "2.4.16",
-        "wpackagist-plugin/disable-gutenberg": "2.0.*"
+        "wpackagist-plugin/disable-gutenberg": "2.0.*",
+        "wpackagist-plugin/ninja-tables": "3.5.9",
+        "ninja-tables/ninja-tables-pro": "3.5.9"
     },
     "require-dev": {
         "phpunit/phpunit": "~5",
@@ -61,6 +63,19 @@
                 "type": "wordpress-plugin",
                 "source": {
                     "url": "https://github.com/wp-premium/gravityforms.git",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ninja-tables/ninja-tables-pro",
+                "version": "3.5.9",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://github.com/wakeforestuniversity/wfu-wp-plugin-ninja-tables-pro",
                     "type": "git",
                     "reference": "origin/master"
                 }
