@@ -14,6 +14,8 @@ RewriteBase /
 #RewriteCond %{HTTP:X-Forwarded-Proto} =http [NC]
 #RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,QSA,R=301]
 
+Header set Referrer-Policy "origin"
+
 RewriteRule ^index\.php$ - [L]
 
 # uploaded files
