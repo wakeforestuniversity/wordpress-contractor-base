@@ -8,7 +8,7 @@ $custom_fields = array(
     'team_id' => $_POST['team_id'],
     'participant_id' => $_POST['participant_id'],
     'type' => $_POST['type'],
-    'authorization_token' => $_POST['authorization_token'],
+    'authorization_token' => $_POST['token'],
 );
 ?>
 <form id="postback" action="<?php echo $redirect_url; ?>" method="post">
