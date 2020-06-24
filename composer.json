@@ -18,7 +18,7 @@
         "phpunit/phpunit": "~5",
         "phpunit/php-code-coverage": "~4",
         "wfu/wfu-wp-plugin-golinks": "dev-local as 0.x-dev",
-        "wfu/event-registration": "dev-local as 0.x-dev"
+        "wfu/event-fundraising": "dev-local as 0.x-dev"
     },
     "autoload": {
         "psr-4": {
